@@ -4,6 +4,8 @@ import './index.css';
 import App from './App';
 
 const myName = 'Olga';
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<App />);
 
 ReactDOM.render(
   <React.StrictMode>
@@ -13,7 +15,5 @@ ReactDOM.render(
   document.getElementById("root")
 );
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<App />);
 
 
