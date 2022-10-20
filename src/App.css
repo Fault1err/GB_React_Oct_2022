@@ -2,7 +2,10 @@
   text-align: center;
 }
 
-
+.Hello {
+  font-size: 500;
+  color: #61dafb;
+}
 
 .App-logo {
   height: 40vmin;
